@@ -22,30 +22,23 @@ import os
 
 # defining the function for creating the plots
 # making the history plot
-def plot_learningCurve(history, epoch):
-	# Plot training & validation accuracy values
-    epoch_range = range(1, epoch+1)
-	plt.plot(epoch_range, history.history['accuracy'])
-	plt.plot(epoch_range, history.history['val_accuracy'])
-	plt.title('Model accuracy')
-	plt.ylabel('Accuracy')
-	plt.xlabel('Epoch')
-	plt.legend(['Train', 'Val'], loc='upper left')
-	plt.savefig('accuracy.jpg')
-	plt.show()
-
-	# Plot training & validation loss values
-	plt.plot(epoch_range, history.history['loss'])
-	plt.plot(epoch_range, history.history['val_loss'])
-	plt.title('Model loss')
-	plt.ylabel('Loss')
-	plt.xlabel('Epoch')
-	plt.legend(['Train', 'Val'], loc='upper left')
-	plt.savefig('loss.jpg')
-	plt.show()
-
-
-
+def plot_learningCurve(history,epochs):
+    epoch_range=range(1,epochs+1)
+    plt.plot(epoch_range,history.history['accuracy'])
+    plt.plot(epoch_range,history.history['val_accuracy'])
+    plt.title('Model Accuracy')
+    plt.xlabel('Epochs')
+    plt.ylabel('Accuracy')
+    plt.savefig('accuracy.jpg')
+    plt.show()
+    
+    plt.plot(epoch_range,history.history['loss'])
+    plt.plot(epoch_range,history.history['val_loss'])
+    plt.title('Model Loss')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.savefig('loss.jpg')
+    plt.show()
 # initialize the initial learning rate, number of epochs to train for,
 # and batch size
 INIT_LR = 1e-4
@@ -149,4 +142,5 @@ print("[INFO] saving mask detector model...")
 model.save("MaskNet.model", save_format="h5")
 
 # plot the training loss and accuracy
-plot_learningCurve(history, epochs)
+print('[INFO] generating the plots...')
+plot_learningCurve(history,EPOCHS)
