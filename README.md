@@ -11,11 +11,11 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 ## Accuracy VS Epochs 📈
 
 <p align="center">
-  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/accuracy.jpg">
+  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/accuracy.jpg">
 </p>
 
 ## Loss VS Epochs 📉
 
 <p align="center">
-  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/loss.jpg">
+  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/loss.jpg">
 </p>
