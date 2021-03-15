@@ -36,7 +36,7 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 
 `Prediction:`
 <p align=center>
-  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result4.jpg" width=700>
+  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result2.jpg" width=700>
 </p>
 
 *The model is making some error while detecting the masks. Also due to some cutoff of the lady's face the haarcascade classifier is not able to detect her face.*
