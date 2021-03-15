@@ -21,10 +21,22 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 </p>
 
 ## Results 🥺
-1. Here is an image of a group of 3 ladies wearing mask. <br> <p align=center>
+**Here is an image of a group of 3 ladies wearing mask.**
+<p align=center>
     <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/test1.jfif">
-  </p>
+</p>
   
-  `Prediction:`
-  <br> <p align=center><img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result1.jpg"></p>
-2. 
+`Prediction:`
+ <p align=center><img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result1.jpg"></p>
+
+**Here is an image of group of people not wearing mask.**
+<p align=center>
+  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/test2.jpg" width=700>
+</p>
+
+`Prediction:`
+<p align=center>
+  <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result4.jpg" width=700>
+</p>
+
+*The model is making some error while detecting the masks. Also due to some cutoff of the lady's face the haarcascade classifier is not able to detect her face.*
