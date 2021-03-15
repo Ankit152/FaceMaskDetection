@@ -19,3 +19,11 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 <p align="center">
   <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/loss.jpg">
 </p>
+
+## Results 🥺
+1. Here is an image of a group of 3 ladies wearing mask. <br> <p align=center>
+    <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/test1.jfif">
+  </p>
+  `Prediction:`
+  <br> <p align=center><img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result1.jpg"></p>
+2. 
