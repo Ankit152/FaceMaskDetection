@@ -1,6 +1,6 @@
 # Face Mask Detection 😷
 
-Face Mask Detection using Deep Learning in Keras, Python and OpenCV on Images and Real Video Streams.
+Face Mask Detection using Deep Learning in Keras, Python and OpenCV on **Images** and **Real Video Streams**.
 
 <p align=center>
   <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/kid-mask.jpg">
