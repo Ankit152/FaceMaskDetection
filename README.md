@@ -26,6 +26,8 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 
 ## Results 🥺
 **Here is an image of a group of 3 ladies wearing mask.**
+
+`Input:`
 <p align=center>
     <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/test1.jfif">
 </p>
@@ -34,6 +36,8 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
  <p align=center><img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/result1.jpg"></p>
 
 **Here is an image of group of people not wearing mask.**
+
+`Input:`
 <p align=center>
   <img src="https://github.com/Ankit152/FaceMaskDetection/blob/main/img/test2.jpg" width=700>
 </p>
